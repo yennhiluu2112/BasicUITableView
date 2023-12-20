@@ -11,8 +11,20 @@
 		DFE5E0C62B20190F00E705E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0C52B20190F00E705E8 /* SceneDelegate.swift */; };
 		DFE5E0C82B20190F00E705E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0C72B20190F00E705E8 /* ViewController.swift */; };
 		DFE5E0CB2B20190F00E705E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5E0C92B20190F00E705E8 /* Main.storyboard */; };
-		DFE5E0CD2B20191000E705E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE5E0CC2B20191000E705E8 /* Assets.xcassets */; };
 		DFE5E0D02B20191000E705E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5E0CE2B20191000E705E8 /* LaunchScreen.storyboard */; };
+		DFE5E0D82B201DD000E705E8 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0D72B201DD000E705E8 /* MovieCollectionViewCell.swift */; };
+		DFE5E0DA2B20218D00E705E8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0D92B20218D00E705E8 /* Movie.swift */; };
+		DFE5E0DC2B2021A700E705E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE5E0DB2B2021A600E705E8 /* Assets.xcassets */; };
+		DFE5E0DE2B202B2600E705E8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0DD2B202B2600E705E8 /* SecondViewController.swift */; };
+		DFE5E0E02B202C3700E705E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0DF2B202C3700E705E8 /* User.swift */; };
+		DFE5E0E52B202D6100E705E8 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0E32B202D6100E705E8 /* SecondCollectionViewCell.swift */; };
+		DFE5E0E62B202D6100E705E8 /* SecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE5E0E42B202D6100E705E8 /* SecondCollectionViewCell.xib */; };
+		DFE5E0EB2B2033DB00E705E8 /* SecondHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0E92B2033DB00E705E8 /* SecondHeaderView.swift */; };
+		DFE5E0EC2B2033DB00E705E8 /* SecondHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE5E0EA2B2033DB00E705E8 /* SecondHeaderView.xib */; };
+		DFE5E0F42B205D9C00E705E8 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0F32B205D9C00E705E8 /* FirstTableViewController.swift */; };
+		DFE5E0F92B2061A200E705E8 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0F72B2061A200E705E8 /* FirstTableViewCell.swift */; };
+		DFE5E0FA2B2061A200E705E8 /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE5E0F82B2061A200E705E8 /* FirstTableViewCell.xib */; };
+		DFE5E0FC2B207AA700E705E8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E0FB2B207AA700E705E8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +33,21 @@
 		DFE5E0C52B20190F00E705E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DFE5E0C72B20190F00E705E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFE5E0CA2B20190F00E705E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFE5E0CC2B20191000E705E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFE5E0CF2B20191000E705E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFE5E0D12B20191000E705E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE5E0D72B201DD000E705E8 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFE5E0D92B20218D00E705E8 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DFE5E0DB2B2021A600E705E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE5E0DD2B202B2600E705E8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DFE5E0DF2B202C3700E705E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFE5E0E32B202D6100E705E8 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFE5E0E42B202D6100E705E8 /* SecondCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		DFE5E0E92B2033DB00E705E8 /* SecondHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHeaderView.swift; sourceTree = "<group>"; };
+		DFE5E0EA2B2033DB00E705E8 /* SecondHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondHeaderView.xib; sourceTree = "<group>"; };
+		DFE5E0F32B205D9C00E705E8 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		DFE5E0F72B2061A200E705E8 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		DFE5E0F82B2061A200E705E8 /* FirstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		DFE5E0FB2B207AA700E705E8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,67 @@
 		DFE5E0C22B20190F00E705E8 /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
+				DFE5E0F22B205D2700E705E8 /* TableViews */,
+				DFE5E0EE2B205C7A00E705E8 /* Models */,
+				DFE5E0ED2B205C6300E705E8 /* CollectionView */,
 				DFE5E0C32B20190F00E705E8 /* AppDelegate.swift */,
 				DFE5E0C52B20190F00E705E8 /* SceneDelegate.swift */,
-				DFE5E0C72B20190F00E705E8 /* ViewController.swift */,
 				DFE5E0C92B20190F00E705E8 /* Main.storyboard */,
-				DFE5E0CC2B20191000E705E8 /* Assets.xcassets */,
+				DFE5E0DB2B2021A600E705E8 /* Assets.xcassets */,
 				DFE5E0CE2B20191000E705E8 /* LaunchScreen.storyboard */,
 				DFE5E0D12B20191000E705E8 /* Info.plist */,
 			);
 			path = MovieList;
+			sourceTree = "<group>";
+		};
+		DFE5E0ED2B205C6300E705E8 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5E0F12B205D0C00E705E8 /* FirstView */,
+				DFE5E0F02B205CA000E705E8 /* SecondView */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		DFE5E0EE2B205C7A00E705E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5E0DF2B202C3700E705E8 /* User.swift */,
+				DFE5E0D92B20218D00E705E8 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFE5E0F02B205CA000E705E8 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5E0EA2B2033DB00E705E8 /* SecondHeaderView.xib */,
+				DFE5E0E32B202D6100E705E8 /* SecondCollectionViewCell.swift */,
+				DFE5E0E42B202D6100E705E8 /* SecondCollectionViewCell.xib */,
+				DFE5E0DD2B202B2600E705E8 /* SecondViewController.swift */,
+				DFE5E0E92B2033DB00E705E8 /* SecondHeaderView.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		DFE5E0F12B205D0C00E705E8 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5E0C72B20190F00E705E8 /* ViewController.swift */,
+				DFE5E0D72B201DD000E705E8 /* MovieCollectionViewCell.swift */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		DFE5E0F22B205D2700E705E8 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5E0F32B205D9C00E705E8 /* FirstTableViewController.swift */,
+				DFE5E0F72B2061A200E705E8 /* FirstTableViewCell.swift */,
+				DFE5E0FB2B207AA700E705E8 /* DetailViewController.swift */,
+				DFE5E0F82B2061A200E705E8 /* FirstTableViewCell.xib */,
+			);
+			path = TableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE5E0EC2B2033DB00E705E8 /* SecondHeaderView.xib in Resources */,
+				DFE5E0E62B202D6100E705E8 /* SecondCollectionViewCell.xib in Resources */,
 				DFE5E0D02B20191000E705E8 /* LaunchScreen.storyboard in Resources */,
-				DFE5E0CD2B20191000E705E8 /* Assets.xcassets in Resources */,
+				DFE5E0DC2B2021A700E705E8 /* Assets.xcassets in Resources */,
+				DFE5E0FA2B2061A200E705E8 /* FirstTableViewCell.xib in Resources */,
 				DFE5E0CB2B20190F00E705E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE5E0DE2B202B2600E705E8 /* SecondViewController.swift in Sources */,
 				DFE5E0C82B20190F00E705E8 /* ViewController.swift in Sources */,
 				DFE5E0C42B20190F00E705E8 /* AppDelegate.swift in Sources */,
+				DFE5E0FC2B207AA700E705E8 /* DetailViewController.swift in Sources */,
 				DFE5E0C62B20190F00E705E8 /* SceneDelegate.swift in Sources */,
+				DFE5E0F42B205D9C00E705E8 /* FirstTableViewController.swift in Sources */,
+				DFE5E0E52B202D6100E705E8 /* SecondCollectionViewCell.swift in Sources */,
+				DFE5E0D82B201DD000E705E8 /* MovieCollectionViewCell.swift in Sources */,
+				DFE5E0EB2B2033DB00E705E8 /* SecondHeaderView.swift in Sources */,
+				DFE5E0F92B2061A200E705E8 /* FirstTableViewCell.swift in Sources */,
+				DFE5E0DA2B20218D00E705E8 /* Movie.swift in Sources */,
+				DFE5E0E02B202C3700E705E8 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

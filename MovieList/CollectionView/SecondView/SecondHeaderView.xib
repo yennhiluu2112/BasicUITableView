@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="header" id="U6b-Vx-4bR" customClass="SecondHeaderView" customModule="MovieList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3we-j0-oUR">
+                    <rect key="frame" x="5" y="5" width="258" height="40"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" systemColor="systemBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df9-zP-Bei">
+                    <rect key="frame" x="273" y="5" width="42" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="gxR-dN-CkU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" systemColor="systemBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <color key="backgroundColor" systemColor="linkColor"/>
+            <constraints>
+                <constraint firstItem="3we-j0-oUR" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="5" id="IEE-RX-yji"/>
+                <constraint firstItem="3we-j0-oUR" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="5" id="Y0n-dw-gb3"/>
+                <constraint firstItem="Df9-zP-Bei" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="5" id="dz7-RO-RbK"/>
+                <constraint firstAttribute="trailing" secondItem="Df9-zP-Bei" secondAttribute="trailing" constant="5" id="eLQ-nD-ijn"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="3we-j0-oUR" secondAttribute="bottom" constant="5" id="eih-i5-teG"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="Df9-zP-Bei" secondAttribute="bottom" constant="5" id="fik-7h-Zjf"/>
+                <constraint firstItem="Df9-zP-Bei" firstAttribute="leading" secondItem="3we-j0-oUR" secondAttribute="trailing" constant="10" id="oaM-wA-KcQ"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="3we-j0-oUR" id="M3r-3f-Nd3"/>
+                <outlet property="totalLabel" destination="Df9-zP-Bei" id="Atb-tc-Dgy"/>
+            </connections>
+            <point key="canvasLocation" x="200" y="2.8169014084507045"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
